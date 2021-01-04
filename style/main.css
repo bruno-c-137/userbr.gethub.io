@@ -133,7 +133,7 @@
  .js .quote-container{
      overflow: hidden;
      color: white;
-
+    text-align: center;
  }
 
  .js .quote-container .quote-slideshow{
@@ -147,8 +147,7 @@
      opacity: 0;
      transition: 1s opacity;
      position: absolute;
-     top: 0;
-     left: 0;
+     
      display: inline-block;
 width: 80%;
  }
