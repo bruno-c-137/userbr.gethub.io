@@ -95,20 +95,18 @@
  .js .slider{
      overflow: hidden;
      color: white;
+     display: flex;
+     justify-content: center;
  }
  .js .slider .slideshow{
      position: relative;
-     width: 100%;
-     margin: auto;
+    
      max-width: 950px;
  }
  .js .slider figure{
      opacity: 0;
      transition: 1s opacity;
     
-     position: absolute;
-     top: 0;
-     left: 0;
    
  }
  .js .slider figure.show{
@@ -123,23 +121,25 @@
      cursor: pointer;
  }
  .js .slider .prev{
-     left: 10px;
+     
  }
  .js .slider .next{
-     right: 10px;
+     right: 2px;
  }
 
 
  .js .quote-container{
      overflow: hidden;
      color: white;
-    text-align: center;
+   
+
  }
 
  .js .quote-container .quote-slideshow{
      position: relative;
+     display: flex;
+     justify-content: center;
     
-     margin: auto;
      
 
  }
@@ -147,9 +147,7 @@
      opacity: 0;
      transition: 1s opacity;
      position: absolute;
-     
-     display: inline-block;
-width: 80%;
+    
  }
  .js .quote-container figure.show{
      opacity: 1;
@@ -316,6 +314,7 @@ width: 80%;
      color: white;
      text-transform: uppercase;
      font-weight: 400;
+     text-align: center;
  }
  .last-articles__thumbs{
      display: grid;
@@ -432,10 +431,9 @@ width: 80%;
      .js .slider figure{
         opacity: 0;
         transition: 1s opacity;
-        width: 100%;
+       
         position: absolute;
-        top: 0;
-        left: 0;
+       
       
     }
     .quote-slideshow h2{
