@@ -85,6 +85,7 @@
      background-color: transparent;
      border: none;
      font-size: 18px;
+     outline: none;
 
  }
  /* essa transition fara que quando o for "js" e quando vc acionar o .header__nav terar um transicao no max-heigt */
