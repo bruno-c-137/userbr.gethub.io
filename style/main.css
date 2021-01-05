@@ -101,11 +101,13 @@
  .js .slider .slideshow{
      position: relative;
     
+  
      max-width: 950px;
  }
  .js .slider figure{
      opacity: 0;
      transition: 1s opacity;
+     position: absolute;	
     
    
  }
